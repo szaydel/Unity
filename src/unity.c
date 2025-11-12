@@ -1110,6 +1110,7 @@ void UnityAssertFloatsWithin(const UNITY_FLOAT delta,
     }
 }
 
+#ifndef   UNITY_EXCLUDE_FLOAT_PRINT
 /*-----------------------------------------------*/
 void UnityAssertFloatsNotWithin(const UNITY_FLOAT delta,
                                 const UNITY_FLOAT expected,
@@ -1163,6 +1164,7 @@ void UnityAssertGreaterOrLessFloat(const UNITY_FLOAT threshold,
         UNITY_FAIL_AND_BAIL;
     }
 }
+#endif /* ! UNITY_EXCLUDE_FLOAT_PRINT */
 
 /*-----------------------------------------------*/
 void UnityAssertFloatSpecial(const UNITY_FLOAT actual,
@@ -1337,6 +1339,7 @@ void UnityAssertDoublesWithin(const UNITY_DOUBLE delta,
     }
 }
 
+#ifndef    UNITY_EXCLUDE_FLOAT_PRINT
 /*-----------------------------------------------*/
 void UnityAssertDoublesNotWithin(const UNITY_DOUBLE delta,
                                  const UNITY_DOUBLE expected,
@@ -1390,6 +1393,7 @@ void UnityAssertGreaterOrLessDouble(const UNITY_DOUBLE threshold,
         UNITY_FAIL_AND_BAIL;
     }
 }
+#endif /* ! UNITY_EXCLUDE_FLOAT_PRINT */
 
 /*-----------------------------------------------*/
 void UnityAssertDoubleSpecial(const UNITY_DOUBLE actual,
