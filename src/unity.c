@@ -1164,7 +1164,7 @@ void UnityAssertGreaterOrLessFloat(const UNITY_FLOAT threshold,
         UNITY_FAIL_AND_BAIL;
     }
 }
-#endif // UNITY_EXCLUDE_FLOAT_PRINT
+#endif /* ! UNITY_EXCLUDE_FLOAT_PRINT */
 
 /*-----------------------------------------------*/
 void UnityAssertFloatSpecial(const UNITY_FLOAT actual,
@@ -1393,7 +1393,7 @@ void UnityAssertGreaterOrLessDouble(const UNITY_DOUBLE threshold,
         UNITY_FAIL_AND_BAIL;
     }
 }
-#endif // UNITY_EXCLUDE_FLOAT_PRINT
+#endif /* ! UNITY_EXCLUDE_FLOAT_PRINT */
 
 /*-----------------------------------------------*/
 void UnityAssertDoubleSpecial(const UNITY_DOUBLE actual,
