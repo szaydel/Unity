@@ -1,3 +1,10 @@
+/* =========================================================================
+    Unity - A Test Framework for C
+    ThrowTheSwitch.org
+    Copyright (c) 2007-26 Mike Karlesky, Mark VanderVoord, & Greg Williams
+    SPDX-License-Identifier: MIT
+========================================================================= */
+
 #define UNITY_DETAIL_STACK_SIZE  5
 #define LABEL_AS_INT32 "#\x18"  /*UNITY_DISPLAY_STYLE_INT32 = 0x18 */
 #define LABEL_AS_HEX8 "#\x41"   /* UNITY_DISPLAY_STYLE_HEX8 = 0x41 */
